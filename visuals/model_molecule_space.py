@@ -17,7 +17,7 @@ Vy = round(mol.speed * math.cos(angle))
 pygame.init()
 win = pygame.display.set_mode((WINDOWWIDTH, WINDOWHEIGHT))
 
-pygame.display.set_caption("Visualizer")
+pygame.display.set_caption("Molecule of space")
 
 runFlag = True
 

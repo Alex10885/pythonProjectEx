@@ -1,3 +1,5 @@
+import random
+
 
 class Rectang(object):
 
@@ -16,4 +18,5 @@ class Molecule(object):
         self.yc = yc
         self.radius = radius
         self.speed = speed
+
 
