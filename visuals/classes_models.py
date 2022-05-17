@@ -34,13 +34,10 @@ class Molecule(object):
             V = random.randrange(1, 6)
             mass_curpuscul.append(V)
 
-            for mol in mass_curpuscul:
+            for _ in mass_curpuscul:
                 curpuscul = mass_curpuscul[:4]
-
                 mol = Molecule(curpuscul[0], curpuscul[1], curpuscul[2], curpuscul[3])
                 molecule.append(mol)
                 del mass_curpuscul[:4]
 
         return molecule
-
-
